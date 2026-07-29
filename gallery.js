@@ -4,7 +4,6 @@ function upDate(previewPic) {
   console.log("Image source: " + previewPic.src);
 
   let imageDiv = document.getElementById("image");
-
   imageDiv.innerHTML = previewPic.alt;
   imageDiv.style.backgroundImage = "url('" + previewPic.src + "')";
 }
