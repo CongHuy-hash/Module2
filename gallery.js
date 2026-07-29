@@ -5,7 +5,7 @@ function upDate(previewPic) {
 
   let imageDiv = document.getElementById("image");
   imageDiv.innerHTML = previewPic.alt;
-  imageDiv.style.backgroundImage = "url('" + previewPic.src + "')";
+  imageDiv.style.backgroundImage = `url('${previewPic.src}')`;
 }
 
 function unDo() {
