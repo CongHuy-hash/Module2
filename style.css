@@ -20,7 +20,9 @@ body {
 }
 
 .preview {
-  width: 20%;
-  margin: 1.5%;
-  border: 10px solid black;
+    width: 20%;
+    height: 150px;
+    object-fit: cover; 
+    margin: 1.5%;
+    border: 10px solid black;
 }
