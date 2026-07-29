@@ -8,7 +8,7 @@ function upDate(previewPic) {
   imageDiv.style.backgroundImage = "url('" + previewPic.src + "')";
 }
 
-function undo() {
+function unDo() {
   let imageDiv = document.getElementById("image");
 
   imageDiv.style.backgroundImage = "url('')";
